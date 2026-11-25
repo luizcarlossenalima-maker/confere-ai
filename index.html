@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confere Aí — mural de notícias para aprender a verificar informações.">
+  <title>Confere Aí | Mural de notícias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <a class="marca" href="#" aria-label="Confere Aí - início">
+      <span class="marca-icone">✓</span>
+      <span>Confere<span class="marca-destaque">Aí</span></span>
+    </a>
+    <nav class="menu" aria-label="Navegação principal">
+      <a class="ativo" href="#inicio">Início</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#sobre">Sobre o projeto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="destaque">
+      <div class="destaque-conteudo">
+        <span class="etiqueta">INFORMAÇÃO COM RESPONSABILIDADE</span>
+        <h1>Antes de compartilhar,<br><span>confere aí!</span></h1>
+        <p>Um mural para explorar notícias, pensar criticamente e descobrir por que verificar uma informação faz toda a diferença.</p>
+        <a class="botao" href="#noticias">Explorar notícias <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="destaque-ilustracao" aria-hidden="true">
+        <div class="circulo circulo-grande"></div>
+        <div class="papel">
+          <div class="papel-linha curta"></div>
+          <div class="papel-titulo"></div>
+          <div class="papel-linha"></div>
+          <div class="papel-linha"></div>
+          <div class="papel-linha media"></div>
+          <div class="selo">✓</div>
+        </div>
+        <div class="brilho brilho-um">✦</div>
+        <div class="brilho brilho-dois">✳</div>
+      </div>
+    </section>
+
+    <section class="secao-noticias" id="noticias">
+      <div class="secao-cabecalho">
+        <div>
+          <span class="sobretitulo">FIQUE POR DENTRO</span>
+          <h2>Radar de notícias</h2>
+          <p class="secao-descricao">Passe o mouse sobre um cartão para conferir o outro lado.</p>
+        </div>
+        <span class="contador">03 CARTÕES</span>
+      </div>
+
+      <div class="grade-cartoes">
+        <article class="cartao" tabindex="0" aria-label="Cartão 1: Tecnologia na educação. Passe o mouse ou use o teclado para virar.">
+          <div class="cartao-interno">
+            <div class="cartao-frente frente-tecnologia">
+              <div class="cartao-topo"><span class="categoria">TECNOLOGIA</span><span class="numero">01</span></div>
+              <div class="arte arte-tecnologia"><span class="icone-arte">✳</span><span class="orbita"></span></div>
+              <div class="frente-rodape"><h3>Tecnologia<br>na educação</h3><span class="virar">VER DETALHES ↗</span></div>
+            </div>
+            <div class="cartao-verso">
+              <span class="categoria">TECNOLOGIA · 01</span>
+              <h3>Aprender também é se conectar.</h3>
+              <p>Ferramentas digitais podem ampliar o acesso ao conhecimento e tornar as aulas mais interativas. O uso precisa vir acompanhado de orientação e pensamento crítico.</p>
+              <span class="selo-info">PONTO PARA INVESTIGAR</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cartao" tabindex="0" aria-label="Cartão 2: Meio ambiente. Passe o mouse ou use o teclado para virar.">
+          <div class="cartao-interno">
+            <div class="cartao-frente frente-ambiente">
+              <div class="cartao-topo"><span class="categoria">MEIO AMBIENTE</span><span class="numero">02</span></div>
+              <div class="arte arte-ambiente"><span class="folha">❧</span><span class="sol"></span></div>
+              <div class="frente-rodape"><h3>Pequenas atitudes,<br>grandes mudanças</h3><span class="virar">VER DETALHES ↗</span></div>
+            </div>
+            <div class="cartao-verso">
+              <span class="categoria">MEIO AMBIENTE · 02</span>
+              <h3>O cuidado começa perto.</h3>
+              <p>Economizar água, reduzir o desperdício e separar resíduos são atitudes que ajudam. Para entender o impacto, procure dados de fontes ambientais confiáveis.</p>
+              <span class="selo-info">PONTO PARA INVESTIGAR</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cartao" tabindex="0" aria-label="Cartão 3: Ciência no cotidiano. Passe o mouse ou use o teclado para virar.">
+          <div class="cartao-interno">
+            <div class="cartao-frente frente-ciencia">
+              <div class="cartao-topo"><span class="categoria">CIÊNCIA</span><span class="numero">03</span></div>
+              <div class="arte arte-ciencia"><span class="atomo">⚛</span><span class="estrela">✦</span></div>
+              <div class="frente-rodape"><h3>Ciência no<br>dia a dia</h3><span class="virar">VER DETALHES ↗</span></div>
+            </div>
+            <div class="cartao-verso">
+              <span class="categoria">CIÊNCIA · 03</span>
+              <h3>Curiosidade é o começo.</h3>
+              <p>A ciência investiga fenômenos por meio de observações, perguntas e testes. Desconfie de promessas milagrosas e confira se há evidências que sustentem uma afirmação.</p>
+              <span class="selo-info">PONTO PARA INVESTIGAR</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-icone">?</div>
+      <div><h2>Por que conferir?</h2><p>Uma informação confiável ajuda a formar opiniões com mais consciência. Antes de repassar uma notícia, verifique a fonte, a data, o contexto e se outros veículos confiáveis confirmam o conteúdo.</p></div>
+    </section>
+  </main>
+
+  <footer><span class="marca-rodape">Confere<span>Aí</span></span><span>Projeto educacional · Informação se verifica.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

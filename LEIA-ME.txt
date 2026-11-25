@@ -1,0 +1,14 @@
+CONFERE AÍ — projeto da unidade
+
+Como visualizar:
+1. Extraia o arquivo ZIP.
+2. Abra a pasta confere-ai.
+3. Dê dois cliques em index.html para abrir no navegador.
+
+Arquivos:
+- index.html: estrutura da página
+- style.css: cores, Flexbox, cartões 3D, responsividade e animações
+- script.js: interação de toque para virar os cartões
+
+Para entregar um link:
+Publique estes arquivos em uma plataforma aceita pela atividade, como GitHub Pages ou CodePen. O ZIP é o projeto; ele ainda não está publicado na internet.
